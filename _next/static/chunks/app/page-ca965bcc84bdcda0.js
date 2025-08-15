@@ -44,22 +44,22 @@
         s = [
           {
             id: 1,
-            title: "Last date for submission of full paper",
-            date: "Date to be Enclosed",
+            title: "Artcile Submission Deadline",
+            date: "10/14/2025",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia at quis risus sed vulputate odio ut. Quam viverra orci sagittis eu volutpat odio facilisis mauris.",
           },
           {
             id: 2,
             title: "Acceptance notification",
-            date: "Date to be Enclosed",
+            date: "11/30/2025",
             description:
               "Aut eius excepturi ex recusandae eius est minima molestiae. Nam dolores iusto ad fugit reprehenderit hic dolorem quisquam et quia omnis non suscipit nihil sit libero distinctio. Ad dolorem tempora sit nostrum voluptatem qui tempora unde? Sit rerum magnam nam ipsam nesciunt aut rerum necessitatibus est quia esse non magni quae.",
           },
           {
             id: 3,
-            title: "Final submission",
-            date: "Date to be Enclosed",
+            title: "Final Camera ready paper Submission",
+            date: "01/09/2026",
             description:
               "Sit culpa quas ex nulla animi qui deleniti minus rem placeat mollitia. Et enim doloremque et quia sequi ea dolores voluptatem ea rerum vitae. Aut itaque incidunt est aperiam vero sit explicabo fuga id optio quis et molestiae nulla ex quae quam. Ab eius dolores ab tempora dolorum eos beatae soluta At ullam placeat est incidunt cumque.",
           },
@@ -87,7 +87,7 @@
         ],
         o = [
           {
-            title: "Energy and Environment Sustainability",
+            title: "Quantum Information Science",
             subtopics: [
               "Green Energy and Renewable Systems",
               "Energy Efficiency and Management",
@@ -97,7 +97,7 @@
             ],
           },
           {
-            title: "Smart and Sustainable Infrastructure",
+            title: "Digital Twin Technology",
             subtopics: [
               "Smart Buildings and Cities",
               "Sustainable Transportation Systems",
@@ -107,7 +107,7 @@
             ],
           },
           {
-            title: "Digital Sustainability and Transformation",
+            title: "Computational Sustainability",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -117,7 +117,7 @@
             ],
           },
           {
-            title: "Advanced Materials and Manufacturing",
+            title: "Sustainable Materials for Healthcare and Industry",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -127,7 +127,7 @@
             ],
           },
           {
-            title: "Communication Technologies ",
+            title: "Digital Manufacturing & Industry 5.0",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -137,7 +137,7 @@
             ],
           },
           {
-            title: "Smart and Intelligent Vehicles ",
+            title: "Carbon Footprint Analysis using Digital Tools",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -146,10 +146,8 @@
               "Blockchain for Sustainable Supply Chain",
             ],
           },
-        ],
-        c = [
           {
-            title: "Artificial Intelligence / Machine Learning ",
+            title: "Climate Resilience",
             subtopics: [
               "Sustainable Development and Policy",
               "Environmental Economics and Management",
@@ -158,8 +156,10 @@
               "Human Values and Environmental Ethics",
             ],
           },
+        ],
+        c = [
           {
-            title: "Climate and Remote Sensing",
+            title: "Smart & Intelligent Vehicles",
             subtopics: [
               "Healthcare and Medical Technology",
               "Public Health and Epidemiology",
@@ -169,7 +169,7 @@
             ],
           },
           {
-            title: "Data and Computational Techniques",
+            title: "Integrated Sensing and Communication Networks",
             subtopics: [
               "Sustainable Business Models",
               "Green Entrepreneurship and Startups",
@@ -179,7 +179,7 @@
             ],
           },
           {
-            title: "Agriculture and Healthcare",
+            title: "Cyber-Physical Systems",
             subtopics: [
               "Sustainable Agriculture and Food Systems",
               "Disaster Risk Reduction and Management",
@@ -189,7 +189,37 @@
             ],
           },
           {
-            title: "Networking IoT and Embedded Systems",
+            title: "Renewable Energy Integration using AI",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Blockchain in Engineering Systems",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Virtual Reality (VR)/Augumented Reality(AR)",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Digital Transformation in STEM",
             subtopics: [
               "Sustainable Agriculture and Food Systems",
               "Disaster Risk Reduction and Management",
@@ -1016,16 +1046,17 @@
                     initial: { opacity: 0, scale: 0.9 },
                     animate: { opacity: 1, scale: 1 },
                     transition: { duration: 0.8, delay: 0.2 },
+                    
                     className:
                       "text-3xl sm:text-5xl md:text-7xl font-bold tracking-tight mb-8 text-center",
                     children: [
-                      "National Level Research Conclave 2026",
+                      "2nd National Level Research Conclave",
                       (0, i.jsx)("br", {}),
                       (0, i.jsx)("span", {
                         className:
                           "text-[0.9rem] sm:text-xl md:text-2xl lg:text-3xl tracking-[0px] md:tracking-[2px]",
                         children:
-                          "Theme: Sustainability: Advancing towards the Resilient\xa0future",
+                          "on Digital Transformation and Sustainable Innovation in Engineering and Science",
                       }),
                     ],
                   }),
