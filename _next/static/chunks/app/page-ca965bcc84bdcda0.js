@@ -44,7 +44,7 @@
         s = [
           {
             id: 1,
-            title: "Artcile Submission Deadline",
+            title: "Article Submission Deadline",
             date: "10/14/2025",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia at quis risus sed vulputate odio ut. Quam viverra orci sagittis eu volutpat odio facilisis mauris.",
@@ -250,6 +250,13 @@
                 className:
                   "flex flex-col w-full md:w-[50%] px-5 md:px-20 py-5 text-justify space-y-2 ",
                 children: [
+                  (0, i.jsx)("a", {
+                  href: "https://rctce2025.tce.edu/",
+                  target: "_blank",
+                  className: "text-blue-600 hover:text-blue-800 font-semibold underline block mb-3",
+                  children: "🔗 Visit Last Year's Website"
+                }),
+
                   (0, i.jsx)(s.E.h1, {
                     initial: { opacity: 0, y: 20 },
                     whileInView: { opacity: 1, y: 0 },
@@ -653,7 +660,7 @@
                     className:
                       "flex bg-primary-accent mb-5 max-w-[300px] justify-center text-white font-semibold py-3 px-6 lg:w-[50%] mx-auto mt-5 md:mt-0 rounded-full hover:bg-opacity-90 transition duration-300",
                     children: (0, i.jsx)("a", {
-                      href: "https://cmt3.research.microsoft.com/RCTCE2025",
+                      href: "https://cmt3.research.microsoft.com/RCTCE2026",
                       target: "_blank",
                       children: "Submit Your Paper",
                     }),
@@ -797,7 +804,7 @@
                             "The proceedings of the conference is now available for download.",
                             " ",
                             (0, i.jsx)("a", {
-                              href: "/TCE RC2025 Proceedings 14 May 2025.pdf",
+                              href: "/TCE RC2026 Proceedings 26-27 March 2026.pdf",
                               download: !0,
                               className:
                                 "font-bold hover:cursor-pointer hover:text-blue-500",
@@ -1525,13 +1532,13 @@
         L = a(3774);
       let V = [
           {
-            name: "Sample",
+            name: "To be Updated soon",
             title: "",
-            organization: "Organization",
+            //organization: "Organization goes here",
             credentials: [
               "Your text goes here !",
             ],
-            imagePlaceholder: "/assets/speakers/k-sridhr.jpg",
+            imagePlaceholder: "/assets/speakers/sample.jpg",
           },
           
         ],
