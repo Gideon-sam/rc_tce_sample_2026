@@ -65,15 +65,15 @@
           },
         ],
         n = [
-          "Selected papers will be published in Springer book series - SEE - Sustainable Economy and Ecotechnology (Publication charges: Rs 3000 + 18% GST)*",
-          "Best Paper Awards for each technical session with a total prize sum of Rs. 50,000/-",
-          "Selected papers have the opportunity for publication in UGC-CARE (Group-1) listed ICTACT Journals:",
+          "To be ",
+          "Updated",
+          "Soon",
         ],
         r = [
-          "• ICTACT Journal on Communication Technology",
-          "• ICTACT Journal on Image and Video Processing",
-          "• ICTACT Journal on Soft Computing",
-          "• ICTACT Journal on Microelectronics",
+          //"• ICTACT Journal on Communication Technology",
+          //"• ICTACT Journal on Image and Video Processing",
+          //"• ICTACT Journal on Soft Computing",
+          //"• ICTACT Journal on Microelectronics",
         ],
         l = [
           "RC 2026 invites full-length original research contributions from professionals from industries, R&D organizations, academic institutions, government departments, and research scholars from across the country.",
@@ -492,14 +492,14 @@
                           transition: { duration: 0.6, delay: 0.1 * t },
                           className: "flex items-start",
                           children: [
-                            (0, i.jsx)("span", {
-                              className:
-                                "flex-shrink-0 h-6 w-6 rounded-full bg-primary-accent flex items-center justify-center mr-3",
-                              children: (0, i.jsx)("span", {
-                                className: "text-white font-medium text-sm",
-                                children: t + 1,
-                              }),
-                            }),
+                            //(0, i.jsx)("span", {
+                              //className:
+                                //"flex-shrink-0 h-6 w-6 rounded-full bg-primary-accent flex items-center justify-center mr-3",
+                              //children: (0, i.jsx)("span", {
+                              //  className: "text-white font-medium text-sm",
+                               // children: t + 1,
+                              //}),
+                            //}),
                             (0, i.jsx)("p", {
                               className: "text-gray-600",
                               children: e,
@@ -547,13 +547,12 @@
                                   "font-bold hover:cursor-pointer hover:text-blue-500",
                                 children: [
                                   " ",
-                                  "(https://cmt3.research.microsoft.com)",
+                                  "",
                                   " ",
                                 ],
                               }),
                               " ",
-                              "Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
-                            ],
+                              "(Link to be updated soon) Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."],
                           }),
                         ],
                       }),
@@ -768,7 +767,7 @@
                         transition: { duration: 0.6, delay: 0.6 },
                         className: "text-gray-600 ml-10 text-sm italic",
                         children:
-                          "*Additional fee applicable for paper publications",
+                          "",
                       }),
                     ],
                   }),
@@ -801,10 +800,10 @@
                         (0, i.jsxs)("p", {
                           className: "text-gray-600",
                           children: [
-                            "The proceedings of the conference is now available for download.",
+                            "The proceedings of the Research Conclave 2025 is now available for download.",
                             " ",
                             (0, i.jsx)("a", {
-                              href: "/TCE RC2026 Proceedings 26-27 March 2026.pdf",
+                              href: "/TCE RC2025 Proceedings 14 May 2025.pdf",
                               download: !0,
                               className:
                                 "font-bold hover:cursor-pointer hover:text-blue-500",
