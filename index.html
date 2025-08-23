@@ -106,6 +106,17 @@
       nomodule=""
     ></script>
   </head>
+  <script>
+  document.addEventListener("click", function(e) {
+    if (e.target.innerText.trim() === "Conclave 2025") {
+      e.preventDefault();
+      window.open("https://rctce2025.tce.edu/", "_blank");
+    }
+  });
+</script>
+
+
+
   <body class="__className_d65c78 antialiased">
     <main class="max-w-10xl mx-auto">
       <nav class="sticky top-0 z-50 bg-white shadow-md">
@@ -254,7 +265,7 @@
                 ><button
                   class="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-[0.95rem] font-medium transition-colors duration-200 active:bg-gray-200"
                 >
-                  Gallery</button
+                  Conclave 2025</button
                 ><button
                   class="text-gray-700 hover:bg-gray-100 hover:text-gray-900 px-3 py-2 rounded-md text-[0.95rem] font-medium transition-colors duration-200 active:bg-gray-200"
                 >
@@ -456,10 +467,7 @@
           <div
             class="flex flex-col w-full md:w-[50%] px-5 md:px-20 py-5 text-justify space-y-2"
           >
-          <a href="https://rctce2025.tce.edu/" target="_blank"
-          class="text-blue-600 hover:text-blue-800 font-semibold underline block mb-3">
-          🔗 Visit Last Year's Website for Referrence
-          </a>
+          
 
             <h1
               class="font-bold text-2xl text-primary-accent"

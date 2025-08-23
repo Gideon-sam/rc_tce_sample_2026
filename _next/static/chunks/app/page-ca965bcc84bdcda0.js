@@ -37,7 +37,7 @@
           { label: "Important Dates", id: "important-dates" },
           { label: "Author Guidelines", id: "author-guidelines" },
           { label: "Registration Details", id: "registration-details" },
-          { label: "Gallery", id: "gallery" },
+          { label: "Conclave 2025", id: "Conclave 2025" },
           { label: "Committee", id: "committee" },
           { label: "Contact Us", id: "contact-us" },
         ],
@@ -251,10 +251,9 @@
                   "flex flex-col w-full md:w-[50%] px-5 md:px-20 py-5 text-justify space-y-2 ",
                 children: [
                   (0, i.jsx)("a", {
-                  href: "https://rctce2025.tce.edu/",
-                  target: "_blank",
-                  className: "text-blue-600 hover:text-blue-800 font-semibold underline block mb-3",
-                  children: "🔗 Visit Last Year's Website"
+                  
+                  
+                
                 }),
 
                   (0, i.jsx)(s.E.h1, {
@@ -1656,14 +1655,14 @@
           0 === e.length)
             ? null
             : (0, i.jsx)("section", {
-                id: "gallery",
+                id: "Conclave 2025",
                 className: "py-16 bg-gray-50",
                 children: (0, i.jsxs)("div", {
                   className: "container mx-auto px-4",
                   children: [
                     (0, i.jsx)("h2", {
                       className: "text-4xl font-bold mb-8 text-center",
-                      children: "Gallery",
+                      children: "https://rctce2025.tce.edu/",
                     }),
                     (0, i.jsxs)("div", {
                       className:
