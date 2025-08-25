@@ -41,45 +41,45 @@
           { label: "Author Guidelines", id: "author-guidelines" },
           { label: "Registration Details", id: "registration-details" },
           { label: "Conclave 2025", id: "Conclave 2025" },
-          { label: "Committee", id: "committee" },
+          { label: "Committee", href: "committee.html" },
+
           { label: "Contact Us", id: "contact-us" },
         ],
         a = [
           {
             id: 1,
             title: "Last date for submission of full paper",
-            date: "2025-02-20",
+            date: "2025-10-14",
             description:
               "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Odio euismod lacinia at quis risus sed vulputate odio ut. Quam viverra orci sagittis eu volutpat odio facilisis mauris.",
           },
           {
             id: 2,
             title: "Acceptance notification",
-            date: "2025-02-25",
+            date: "2025-11-30",
             description:
               "Aut eius excepturi ex recusandae eius est minima molestiae. Nam dolores iusto ad fugit reprehenderit hic dolorem quisquam et quia omnis non suscipit nihil sit libero distinctio. Ad dolorem tempora sit nostrum voluptatem qui tempora unde? Sit rerum magnam nam ipsam nesciunt aut rerum necessitatibus est quia esse non magni quae.",
           },
           {
             id: 3,
             title: "Final submission",
-            date: "2025-03-10",
+            date: "2026-01-09",
             description:
               "Sit culpa quas ex nulla animi qui deleniti minus rem placeat mollitia. Et enim doloremque et quia sequi ea dolores voluptatem ea rerum vitae. Aut itaque incidunt est aperiam vero sit explicabo fuga id optio quis et molestiae nulla ex quae quam. Ab eius dolores ab tempora dolorum eos beatae soluta At ullam placeat est incidunt cumque.",
           },
         ],
         o = [
-          "Selected papers will be published in Springer book series - SEE - Sustainable Economy and Ecotechnology (Publication charges: Rs 3000 + 18% GST)*",
-          "Best Paper Awards for each technical session with a total prize sum of Rs. 50,000/-",
-          "Selected papers have the opportunity for publication in UGC-CARE (Group-1) listed ICTACT Journals:",
-        ],
+          "To be ",
+          "Updated",
+          "Soon",],
         s = [
-          "• ICTACT Journal on Communication Technology",
-          "• ICTACT Journal on Image and Video Processing",
-          "• ICTACT Journal on Soft Computing",
-          "• ICTACT Journal on Microelectronics",
-        ],
+          //"• ICTACT Journal on Communication Technology",
+          //"• ICTACT Journal on Image and Video Processing",
+          //"• ICTACT Journal on Soft Computing",
+          //"• ICTACT Journal on Microelectronics",
+          ],
         r = [
-          "RC 2025 invites full-length original research contributions from professionals from industries, R&D organizations, academic institutions, government departments, and research scholars from across the country.",
+          "RC 2026 invites full-length original research contributions from professionals from industries, R&D organizations, academic institutions, government departments, and research scholars from across the country.",
           "Full-length original research or review articles not exceeding 6 pages shall be submitted.",
           "The manuscript should contain original research ideas, developmental ideas, analysis, findings, results, etc.",
           "The manuscript should not have been published in any journals/magazines or conference proceedings and should not be under review in any of them.",
@@ -90,7 +90,7 @@
         ],
         l = [
           {
-            title: "Energy and Environment Sustainability",
+            title: "Quantum Information Science",
             subtopics: [
               "Green Energy and Renewable Systems",
               "Energy Efficiency and Management",
@@ -100,7 +100,7 @@
             ],
           },
           {
-            title: "Smart and Sustainable Infrastructure",
+            title: "Digital Twin Technology",
             subtopics: [
               "Smart Buildings and Cities",
               "Sustainable Transportation Systems",
@@ -110,7 +110,7 @@
             ],
           },
           {
-            title: "Digital Sustainability and Transformation",
+            title: "Computational Sustainability",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -120,7 +120,7 @@
             ],
           },
           {
-            title: "Advanced Materials and Manufacturing",
+            title: "Sustainable Materials for Healthcare and Industry",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -130,7 +130,7 @@
             ],
           },
           {
-            title: "Communication Technologies ",
+            title: "Digital Manufacturing & Industry 5.0",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -140,7 +140,7 @@
             ],
           },
           {
-            title: "Smart and Intelligent Vehicles ",
+            title: "Carbon Footprint Analysis using Digital Tools",
             subtopics: [
               "Green IT and Computing",
               "Digitalization for Sustainability",
@@ -149,10 +149,8 @@
               "Blockchain for Sustainable Supply Chain",
             ],
           },
-        ],
-        u = [
           {
-            title: "Artificial Intelligence / Machine Learning ",
+            title: "Climate Resilience",
             subtopics: [
               "Sustainable Development and Policy",
               "Environmental Economics and Management",
@@ -161,8 +159,10 @@
               "Human Values and Environmental Ethics",
             ],
           },
+        ],
+        u = [
           {
-            title: "Climate and Remote Sensing",
+            title: "Smart & Intelligent Vehicles",
             subtopics: [
               "Healthcare and Medical Technology",
               "Public Health and Epidemiology",
@@ -172,7 +172,7 @@
             ],
           },
           {
-            title: "Data and Computational Techniques",
+            title: "Integrated Sensing and Communication Networks",
             subtopics: [
               "Sustainable Business Models",
               "Green Entrepreneurship and Startups",
@@ -182,7 +182,7 @@
             ],
           },
           {
-            title: "Agriculture and Healthcare",
+            title: "Cyber-Physical Systems",
             subtopics: [
               "Sustainable Agriculture and Food Systems",
               "Disaster Risk Reduction and Management",
@@ -192,7 +192,37 @@
             ],
           },
           {
-            title: "Networking IoT and Embedded Systems",
+            title: "Renewable Energy Integration using AI",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Blockchain in Engineering Systems",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Virtual Reality (VR)/Augumented Reality(AR)",
+            subtopics: [
+              "Sustainable Agriculture and Food Systems",
+              "Disaster Risk Reduction and Management",
+              "Sustainable Tourism and Hospitality",
+              "Education for Sustainable Development",
+              "Sustainable Policy and Governance",
+            ],
+          },
+          {
+            title: "Digital Transformation in STEM",
             subtopics: [
               "Sustainable Agriculture and Food Systems",
               "Disaster Risk Reduction and Management",
@@ -548,7 +578,7 @@
                                 onClick: () => {
                                   "committee" !== e.id
                                     ? f(e.id)
-                                    : (m.push("/committee"), t(!1));
+                                  : (window.location.href = "committee.html");
                                 },
                                 children: e.label,
                               },
@@ -665,7 +695,7 @@
                             className:
                               "text-gray-700 hover:bg-gray-100 hover:text-gray-900 block px-3 py-2 rounded-md text-base font-medium w-full text-left active:bg-gray-200",
                             onClick: () => {
-                              m.push("/committee"), t(!1);
+                              window.location.href = "committee.html";
                             },
                             children: "Committee",
                           }),

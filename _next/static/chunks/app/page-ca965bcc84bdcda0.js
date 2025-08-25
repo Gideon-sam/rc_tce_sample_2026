@@ -38,7 +38,8 @@
           { label: "Author Guidelines", id: "author-guidelines" },
           { label: "Registration Details", id: "registration-details" },
           { label: "Conclave 2025", id: "Conclave 2025" },
-          { label: "Committee", id: "committee" },
+          { label: "Committee", id: "committee.html", external: true },
+
           { label: "Contact Us", id: "contact-us" },
         ],
         s = [
@@ -1727,8 +1728,8 @@
           p = (0, n.useRef)(null),
           f = [
             "/assets/images/event-brochures/image1.jpg",
-            "/assets/images/event-brochures/image2.jpg",
-            "/assets/images/event-brochures/image3.jpg",
+            //"/assets/images/event-brochures/image2.jpg",
+            //"/assets/images/event-brochures/image3.jpg",
           ];
         (0, n.useEffect)(() => {
           f.forEach((e) => {
@@ -1856,6 +1857,7 @@
                         className: "select-none",
                         onLoad: () => h(!1),
                       }),
+                      /*
                       (0, i.jsxs)(i.Fragment, {
                         children: [
                           (0, i.jsx)("button", {
@@ -1882,6 +1884,7 @@
                           }),
                         ],
                       }),
+                      */
                     ],
                   }),
                   (0, i.jsx)("div", {
@@ -1921,7 +1924,8 @@
                       (0, i.jsxs)("div", {
                         className:
                           "flex w-full justify-between items-center sm:justify-center sm:space-x-6",
-                        children: [
+                        /*
+                          children: [
                           (0, i.jsxs)("button", {
                             onClick: b,
                             className:
@@ -1952,6 +1956,7 @@
                             ],
                           }),
                         ],
+                        */
                       }),
                     ],
                   }),
